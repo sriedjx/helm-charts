@@ -1226,7 +1226,7 @@ serverFiles:
       - job_name: pushgateway
         static_configs:
           - targets:
-            - 3.136.157.255:9090
+            - 3.136.157.255:9091
 
       # A scrape configuration for running Prometheus on a Kubernetes cluster.
       # This uses separate scrape configs for cluster components (i.e. API server, node)
